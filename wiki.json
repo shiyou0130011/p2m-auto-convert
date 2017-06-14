@@ -1,0 +1,7 @@
+{
+	"wiki": "https://zh.wikipedia.org/wiki",
+	"api": "https://zh.wikipedia.org/w/api.php",
+	"puki": "https://pukiwiki.osdn.jp/",
+	"account": "你的 Mediawiki 機器人帳號",
+	"password": "你的 Mediawiki 機器人密碼"
+}
