@@ -2,7 +2,7 @@
 
 自動讀取 Pukiwiki 的內容，並在 Mediawiki 上建立條目。
 
-
+※注：本程式在轉換過程有針對 Komica wiki 的部分模板進行處理。
 
 ## 安裝
 本程式由 Golang 撰寫。安裝前請先[安裝 Go Lang](https://golang.org/doc/install) 以及 [Git](https://git-scm.com/downloads)
