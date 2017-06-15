@@ -87,6 +87,8 @@ wiki.json 各欄位如下
 ## 範例
 本程式沒有GUI（圖形使用者介面），所以需以終端機執行
 
+![Windows 的執行畫面](cmd.png)
+
 複製條目《Important Article》並同時上傳檔案
 ``` 
 p2m --title "Important Article"
