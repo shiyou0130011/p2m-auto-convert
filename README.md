@@ -90,6 +90,9 @@ wiki.json 各欄位如下
 ![Windows 的執行畫面](cmd.png)
 
 複製條目《Important Article》並同時上傳檔案
+
+<span style="color: red">注意：條目名如果中間有空格，一定要用引號（ " ） 包覆起來。</span>以《Important Article》為例，若沒有用引號包住，則會建立空的條目《Important》
+
 ``` 
 p2m --title "Important Article"
 ```
