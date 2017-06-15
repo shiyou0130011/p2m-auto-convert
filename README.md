@@ -61,7 +61,10 @@ wiki.json 各欄位如下
 	<tbody><tr>
 		<td>–changetitle</td>
 		<td>boolean</td>
-		<td>是否轉換標題，例如 角色/ABC 轉成 ABC 這樣</td>
+		<td>
+			是否轉換標題，例如 角色/ABC 轉成 ABC 這樣<br />
+			默認是不轉換
+		</td>
 		</tr>
 		<tr>
 			<td>–ci</td>
@@ -80,3 +83,34 @@ wiki.json 各欄位如下
 		</tr>
 	</tbody>
 </table>
+
+## 範例
+本程式沒有GUI（圖形使用者介面），所以需以終端機執行
+
+複製條目《Important Article》並同時上傳檔案
+``` 
+p2m --title "Important Article"
+```
+
+僅上傳條目《Important Article》裡的圖片
+``` 
+p2m --title "Important Article" --ci
+```
+
+僅複製條目《Important Article》，不上傳圖片
+``` 
+p2m --title "Important Article" --cp
+```
+
+複製條目《角色/John Smith》
+
+此範例會建立條目《John Smith》和重定向條目《角色/John Smith》
+```
+p2m --title "角色/John Smith" --changetitle
+```
+
+
+複製條目《角色/John Smith》，但不建立重定向
+```
+p2m --title "角色/John Smith" 
+```
